@@ -1,0 +1,5 @@
+mcfg_sw/generic/china/nubia/cmcc/commerci/volte_op/mcfg_sw.mbn
+mcfg_sw/generic/china/nubia/ct/commerci/hvolte_o/mcfg_sw.mbn
+mcfg_sw/generic/china/nubia/cu/commerci/openmkt/mcfg_sw.mbn
+mcfg_sw/generic/china/nubia/row/commerci/mcfg_sw.mbn
+mcfg_sw/generic/china/nubia/test/commerci/mcfg_sw.mbn
