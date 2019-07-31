@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2016, nubia
+ File name:nubia_production_info.xml
+ Witer: wangfangyou
+ Date: 2016-08-31
+ Abstract: for nubia ui production info child menu
+-->
+<layout>
+  <button
+        name="title_production_info"
+        text="production_info"
+        w_rel="100"
+        h_rel="6"
+        x_rel="0"
+        y_rel="0"
+        color="0x222222ff"/>
+
+  <textview
+        name="wlan_mac_head"
+        text="WLAN MAC 地址:"
+        w_rel="35"
+        h_rel="5"
+        x_rel="0"
+        y_rel="9"/>
+
+  <textview
+        name="wlan_mac"
+        text="unkown"
+        w_rel="65"
+        h_rel="5"
+        x_rel="35"
+        y_rel="9"/>
+
+  <textview
+        name="bt_mac_head"
+        text="蓝牙地址:"
+        w_rel="35"
+        h_rel="5"
+        x_rel="0"
+        y_rel="13"/>
+
+  <textview
+        name="bt_mac"
+        text="unkown"
+        w_rel="65"
+        h_rel="5"
+        x_rel="35"
+        y_rel="13"/>
+
+  <textview
+        name="psn_head"
+        text="PSN:"
+        w_rel="35"
+        h_rel="5"
+        x_rel="0"
+        y_rel="17"/>
+
+  <textview
+        name="psn"
+        text="unkown"
+        w_rel="65"
+        h_rel="5"
+        x_rel="35"
+        y_rel="17"/>
+  <textview
+        name="msn_head"
+        text="MSN:"
+        w_rel="35"
+        h_rel="5"
+        x_rel="0"
+        y_rel="21"/>
+
+  <textview
+        name="msn"
+        text="unkown"
+        w_rel="65"
+        h_rel="5"
+        x_rel="35"
+        y_rel="21"/>
+
+  <button
+        name="title_sw_version"
+        text="sw_version"
+        w_rel="100"
+        h_rel="6"
+        x_rel="0"
+        y_rel="24"
+        color="0x222222ff"/>
+
+  <textview
+        name="base_version_head"
+        text="基带版本:"
+        w_rel="25"
+        h_rel="5"
+        x_rel="0"
+        y_rel="33"/>
+
+  <textview
+        name="base_version"
+        text="unkown"
+        w_rel="75"
+        h_rel="5"
+        x_rel="25"
+        y_rel="33"/>
+
+  <textview
+        name="version_number_head"
+        text="版本号:"
+        w_rel="25"
+        h_rel="5"
+        x_rel="0"
+        y_rel="37"/>
+
+  <textview
+        name="version_number"
+        text="unkown"
+        w_rel="75"
+        h_rel="5"
+        x_rel="25"
+        y_rel="37"/>
+
+  <button
+        name="title_hw_version"
+        text="hw_version"
+        w_rel="100"
+        h_rel="8"
+        x_rel="0"
+        y_rel="40"
+        color="0x222222ff"/>
+
+  <textview
+        name="board_head"
+        text="BOARD:"
+        w_rel="35"
+        h_rel="5"
+        x_rel="0"
+        y_rel="50"/>
+
+  <textview
+        name="board"
+        text="unkown"
+        w_rel="65"
+        h_rel="5"
+        x_rel="35"
+        y_rel="50"/>
+
+  <textview
+        name="model_head"
+        text="MODEL:"
+        w_rel="35"
+        h_rel="5"
+        x_rel="0"
+        y_rel="54"/>
+
+  <textview
+        name="model"
+        text="unkown"
+        w_rel="65"
+        h_rel="5"
+        x_rel="35"
+        y_rel="54"/>
+
+  <textview
+        name="device_head"
+        text="DEVICE:"
+        w_rel="35"
+        h_rel="5"
+        x_rel="0"
+        y_rel="58"/>
+
+  <textview
+        name="device"
+        text="unkown"
+        w_rel="65"
+        h_rel="5"
+        x_rel="35"
+        y_rel="58"/>
+
+  <textview
+        name="manufacture_head"
+        text="MANUFACTURE:"
+        w_rel="35"
+        h_rel="5"
+        x_rel="0"
+        y_rel="62"/>
+
+  <textview
+        name="manufacture"
+        text="unkown"
+        w_rel="65"
+        h_rel="5"
+        x_rel="35"
+        y_rel="62"/>
+
+  <textview
+        name="pcb_version_head"
+        text="PCB VERSION:"
+        w_rel="35"
+        h_rel="5"
+        x_rel="0"
+        y_rel="66"/>
+
+  <textview
+        name="pcb_version"
+        text="unkown"
+        w_rel="65"
+        h_rel="5"
+        x_rel="35"
+        y_rel="66"/>
+
+  <textview
+        name="memory_size_head"
+        text="内存容量:"
+        w_rel="35"
+        h_rel="5"
+        x_rel="0"
+        y_rel="70"/>
+
+  <textview
+        name="memory_size"
+        text="unkown"
+        w_rel="65"
+        h_rel="5"
+        x_rel="35"
+        y_rel="70"/>
+
+  <textview
+        name="touch_version_head"
+        text="触屏版本:"
+        w_rel="35"
+        h_rel="10"
+        x_rel="0"
+        y_rel="74"/>
+
+  <textview
+        name="touch_version"
+        text="unkown"
+        w_rel="65"
+        h_rel="10"
+        x_rel="35"
+        y_rel="74"/>
+
+  <textview
+        name="back_touch_version_head"
+        text="后屏触屏版本:"
+        w_rel="35"
+        h_rel="20"
+        x_rel="0"
+        y_rel="82"/>
+
+  <textview
+        name="back_touch_version"
+        text="unkown"
+        w_rel="65"
+        h_rel="20"
+        x_rel="35"
+        y_rel="82"/>
+
+  <textview
+        name="audio_param_head"
+        text="音频参数版本:"
+        w_rel="35"
+        h_rel="5"
+        x_rel="0"
+        y_rel="98"/>
+
+  <textview
+        name="audio_param"
+        text="unkown"
+        w_rel="65"
+        h_rel="5"
+        x_rel="77"
+        y_rel="98"/>
+
+  <parent
+        name="nubia_production_info.xml" />
+
+  </layout>
