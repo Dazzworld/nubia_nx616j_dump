@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<multiwindow-setting>
+
+<!-- all apps in the "normal-mode" is white-list. -->
+<name-list name="normal-mode" type="white-list">
+</name-list>
+
+<!-- all apps in the "keep-size" is white-list. -->
+<name-list name="keep-size" type="white-list">
+    <item value="cn.nubia.control"/>
+    <item value="cn.nubia.fmradio.preset"/>
+    <item value="cn.nubia.bleobj"/>
+    <item value="cn.nubia.calculator2.preset"/>
+    <item value="cn.nubia.deskclock.preset"/>
+    <item value="cn.nubia.calendar.preset"/>
+    <item value="cn.nubia.soundrecorder.preset"/>
+    <item value="cn.nubia.powermanage"/>
+    <item value="cn.nubia.music.preset"/>
+    <item value="cn.nubia.wfd"/>
+    <item value="com.android.contacts"/>
+    <item value="cn.nubia.contacts" />
+    <item value="cn.nubia.databackup"/>
+    <item value="cn.nubia.neoshare/.PermissionConfirmActivity"/>
+    <item value="cn.nubia.neoshare/.login.AppStartActivity"/>
+    <item value="cn.nubia.neostore/.ui.start.GuidePageActivity"/>
+    <item value="cn.nubia.nubiashop/.welcome.WelcomeActivity"/>
+    <item value="cn.nubia.systemupdate"/>
+    <item value="cn.nubia.deskclock.preset"/>
+    <item value="cn.nubia.processmanager"/>
+    <item value="cn.nubia.myfile"/>
+    <item value="com.yulore.framework"/>
+    <item value="com.halfbrick.fruitninja"/>
+    <item value="com.kugou.android"/>
+    <item value="com.android.server.telecom/.components.UserCallActivity"/>
+    <item value="cn.nubia.thememanager"/>
+    <item value="cn.nubia.notepad.preset"/>
+    <item value="com.tencent.tmgp.xymobile"/>
+    <item value="cn.jj"/>
+    <item value="com.qqgame.mic"/>
+    <item value="com.tencent.tmgp.cf"/>
+    <item value="cn.nubia.sensor"/>
+    <item value="cn.nubia.email"/>
+    <item value="com.qqgame.hlddz"/>
+</name-list>
+
+<!-- all apps in the "full-screen" is white-list. -->
+<name-list name="full-screen" type="white-list">
+</name-list>
+
+<!-- not need stop app -->
+<name-list name="start-white" type="white-list">
+</name-list>
+
+<!-- all apps in the "update-focus" is black-list. -->
+<name-list name="update-focus" type="black-list">
+</name-list>
+
+</multiwindow-setting>
+
